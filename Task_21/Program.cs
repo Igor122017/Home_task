@@ -10,7 +10,7 @@ int x1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("y: ");
 int y1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("f: ");
-int z1 = Convert.ToInt32(Console.ReadLine());
+int f1 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите координаты второй точки: ");
 Console.Write("x: ");
@@ -18,7 +18,7 @@ int x2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("y: ");
 int y2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("f: ");
-int z2 = Convert.ToInt32(Console.ReadLine());
+int f2 = Convert.ToInt32(Console.ReadLine());
 
 double Dist(int ax, int ay, int af, int bx, int by, int bf)
 {

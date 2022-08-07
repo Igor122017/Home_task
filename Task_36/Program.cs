@@ -3,6 +3,7 @@
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
+using System.Text;
 int[] intArray = CreateArrayRandomInt(10,-100, 100);
 int oddSum = GetOddSum(intArray);
 

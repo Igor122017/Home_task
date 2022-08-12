@@ -9,8 +9,6 @@ double diffMinMax = GetDiffMinMax(doubleArray);
 
 Console.WriteLine($"{WriteArrayAsString(doubleArray)} -> {diffMinMax:F2}");
 
-
-
 double GetDiffMinMax(double[] array)
 {
     double min = array[0];

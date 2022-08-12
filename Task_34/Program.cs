@@ -8,7 +8,6 @@ int positiveCount = CountPositiveNums(intArray);
 
 Console.WriteLine($"{WriteArrayAsString(intArray)} -> {positiveCount}");
 
-
 int CountPositiveNums(int[] array)
 {
     int counter = 0;

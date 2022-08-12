@@ -9,7 +9,6 @@ int oddSum = GetOddSum(intArray);
 
 Console.WriteLine($"{WriteArrayAsString(intArray)} -> {oddSum}");
 
-
 int GetOddSum(int[] array)
 {
     int sum = array[1];
